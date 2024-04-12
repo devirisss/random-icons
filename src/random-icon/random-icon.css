@@ -1,0 +1,13 @@
+.randomIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 200px;
+}
+
+@media (max-width: 860px) {
+    .randomIcon {
+        width: 60%;
+    }
+}

@@ -1,0 +1,28 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 70px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: #E7717D;
+    border-radius: 20px;
+    box-shadow: 0 0 50px 10px rgb(200, 180, 180);
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+@media (max-width: 860px) {
+    .button {
+        width: 50%;
+        font-size: 25px;
+    }
+}
